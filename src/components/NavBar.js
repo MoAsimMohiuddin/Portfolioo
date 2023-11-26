@@ -39,7 +39,7 @@ export const NavBar = () => {
             <em><h4 className="logo" style={{color: "white"}}>Asim Mohiuddin</h4></em>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
+            <span style={{'color': 'white'}}>&#9776;</span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
