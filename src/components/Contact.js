@@ -37,7 +37,6 @@ export const Contact = () => {
                 <Row>
                   <Col size={12} className="px-1">
                     <textarea
-                    style={{"color": "white"}}
                       id="message"
                       name="message"
                       rows="6"
