@@ -20,7 +20,11 @@ export const Contact = () => {
 
   const [state, handleSubmit] = useForm("xknlljrv");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <div className="feedback-msg">
+        <p>Thanks❤️</p>
+      </div>
+    );
   }
 
   return (
