@@ -22,7 +22,7 @@ export const Contact = () => {
   if (state.succeeded) {
     return (
       <div className="feedback-msg">
-        <p>Thanks❤️</p>
+        <h1>Thanks❤️</h1>
       </div>
     );
   }
