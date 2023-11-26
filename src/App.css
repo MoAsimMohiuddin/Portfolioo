@@ -581,3 +581,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #message::placeholder:focus{
   color: black;
 }
+
+#message:focus::placeholder{
+  color: black;
+}
+
+#message:focus{
+  color: black;
+}
