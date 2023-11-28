@@ -32,7 +32,7 @@ export const Projects = () => {
       githubLink: "https://github.com/MoAsimMohiuddin/CCC-Sustaiable-ECOMM-using-React",
     },
     {
-      title: "Churn Cohort Analysis",
+      title: "Cohort Churn Analysis",
       description: "Aimed to increase user retention on a Internet Service Provider Dataset!",
       imgUrl: cohortChurnImg,
       githubLink: "",

@@ -2,9 +2,11 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import { useForm, ValidationError } from "@formspree/react";
+import useAnalyticsEventTracker from './useAnalyticsEventTracker'; // Google Analytics
 import "animate.css";
 
 export const Contact = () => {
+  const gaEventTracker = useAnalyticsEventTracker('Contact us');
   const formInitialDetails = {
     message: "",
   };
@@ -53,7 +55,7 @@ export const Contact = () => {
                       field="message"
                       errors={state.errors}
                     />
-                    <button type="submit" disabled={state.submitting}>
+                    <button type="submit"  onClick={()=>gaEventTracker('call')} disabled={state.submitting}>
                       <span>{buttonText}</span>
                     </button>
                   </Col>

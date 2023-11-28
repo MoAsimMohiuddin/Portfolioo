@@ -9,6 +9,12 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Analytics } from '@vercel/analytics/react';
 
+
+import ReactGA from 'react-ga'; // Google Analytics
+const TRACKING_ID = "G-4XNKHSTTSQ";
+ReactGA.initialize(TRACKING_ID);
+
+
 function App() {
   return (
     <div className="App">
