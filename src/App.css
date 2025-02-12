@@ -284,13 +284,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   align-items: center;
   overflow-y: auto;
+  overflow-x: hidden;
   max-height: 80vh;
   margin: 50px;
 }
 .modal-image {
   width: 40vw;
   height: 50vh;
-  object-fit: cover;
+  object-fit: contain;
   margin-top: 20px;
   border-radius: 10px;
   overflow-y: scroll;
@@ -327,6 +328,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
 } */
+
+.txt-rotate {
+  display: inline-block;
+  width: 100%;
+  min-height: 44vh;
+  overflow: hidden;
+  white-space: normal; /* Allows proper wrapping */
+  word-break: break-word; /* Ensures long words don’t overflow */
+}
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
