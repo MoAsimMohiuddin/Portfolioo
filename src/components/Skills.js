@@ -1,13 +1,9 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import jsImg from "../assets/img/js.png";
 import bootstrapImg from "../assets/img/bootstrap.png";
+import tailwind from "../assets/img/tailwind.png";
 import dbmsImg from "../assets/img/dbms.png";
 import dsaImg from "../assets/img/dsa.png";
 import javaImg from "../assets/img/Java-Logo.png";
@@ -100,6 +96,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={mongodbImg} alt="" />
                   <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={tailwind} alt="" />
+                  <h5>TailwindCSS</h5>
                 </div>
                 <div className="item">
                   <img src={bootstrapImg} alt="" />

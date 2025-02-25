@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import asimImg from "../assets/img/ASIM_GRAD.jpg";
+import asimImg from "../assets/img/asim.jpg";
 import "animate.css";
 
 export const Banner = () => {
@@ -13,10 +13,9 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "Software Engineer – aka Professional Bug Creator",
-    "Debugging my code... and occasionally my life",
+    "Architecting software, debugging reality",
+    "Debugging my code, and occasionally my life",
     "Turning coffee into code (and sometimes chaos)",
-    "Making software better, one crash at a time",
   ];
   const period = 800;
 
@@ -117,10 +116,10 @@ export const Banner = () => {
                   <h2>About Me</h2>
                   <p>
                     Hey! If you made it this far, congrats—you survived my
-                    portfolio. 🎉 Now, don’t just lurk—leave a message at the
+                    portfolio. Now, don’t just lurk—leave a message at the
                     end of the page. I promise I’ll probably read it… unless
-                    it’s bug reports. 😏 Thanks for your time, you absolute
-                    legend! 🚀
+                    it’s bug reports. Thanks for your time, you absolute
+                    legend!
                   </p>
                   <img src={asimImg} className="modal-image" alt=""></img>
                 </div>
