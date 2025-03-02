@@ -47,7 +47,7 @@ export const Contact = () => {
                       name="message"
                       rows="6"
                       value={formDetails.message}
-                      placeholder="Send me a Message Anonymously🫣"
+                      placeholder="Send me a Message (it's anonymous, istg)"
                       onChange={(e) => onFormUpdate("message", e.target.value)}
                     ></textarea>
                     <ValidationError

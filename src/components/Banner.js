@@ -79,21 +79,14 @@ export const Banner = () => {
               </h1>
               <p>
                 {" "}
-                Hey, I’m Asim. A Software Engineer who occasionally questions
-                his life choices. I write code, break things, then pretend I
-                meant to do it. If there’s a new tech trend, I’ll probably adopt
-                it—only to regret it later. Web dev keeps me on my toes, mainly
-                because something is always on fire. Beyond coding, I have an
-                unhealthy obsession with Data Structures and Algorithms. Why?
-                Because nothing screams fun like dynamic programming and time
-                complexity ruining your day. I enjoy solving algorithmic
-                puzzles, mostly so I can flex about it later. Optimizing code is
-                my passion… until I realize the bottleneck is me. Welcome to my
-                portfolio—where the commits are messy, but the sarcasm is clean.
+                Hey, I’m Asim. A Software Engineer who occasionally questions his life choices. I write code, break things, then pretend I meant to do it. If there’s a new tech trend, I’ll probably adopt it—only to regret it later. Web dev keeps me on my toes, mainly because something is always on fire.
+                Beyond coding, I have an unhealthy obsession with Data Structures and Algorithms. Why? Because nothing screams fun like dynamic programming and time complexity ruining your day. I enjoy solving algorithmic puzzles, mostly so I can flex about it later. Optimizing code is my passion… until I realize the bottleneck is me.
+                When I’m not busy debugging my life choices, I’m watching Barça remind the world why football is art. Messi? Absolute GOAT—no debates, no discussions. Football is my escape, except when my team loses, in which case, it’s just another source of pain.
+                Welcome to my portfolio.
               </p>
 
               <button className="more-btn" onClick={handleShowModal}>
-                More About Me
+                Catsoncake
                 <ArrowRightCircle size={25} />
               </button>
             </div>
@@ -113,13 +106,18 @@ export const Banner = () => {
                   <span className="close" onClick={handleCloseModal}>
                     &times;
                   </span>
-                  <h2>About Me</h2>
+                  <h2>Hollaaaa!</h2>
                   <p>
                     Hey! If you made it this far, congrats—you survived my
                     portfolio. Now, don’t just lurk—leave a message at the
                     end of the page. I promise I’ll probably read it… unless
                     it’s bug reports. Thanks for your time, you absolute
                     legend!
+                    <br />
+                    <span className="catsoncake">
+                      Cats love cake, but this one left without a bite. If you're still hungry, you know where to find me (Just text me please)
+                      <br /><span className="mark-ruffalo">- Mark Ruffalo in disguise</span>
+                    </span>
                   </p>
                   <img src={asimImg} className="modal-image" alt=""></img>
                 </div>

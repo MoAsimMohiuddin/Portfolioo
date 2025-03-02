@@ -10,15 +10,14 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <em><h4 className="logo" style={{color: "white"}}>Asim Mohiuddin</h4></em>
+            <em><h4 className="logo" style={{color: "white"}}>Portfolio</h4></em>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2025. All Rights Reserved</p>
+            <p>&copy; 2025. My Lawyer said I should write this</p>
           </Col>
         </Row>
       </Container>
