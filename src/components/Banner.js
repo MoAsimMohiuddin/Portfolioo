@@ -106,14 +106,8 @@ export const Banner = () => {
                   <span className="close" onClick={handleCloseModal}>
                     &times;
                   </span>
-                  <h2>Hollaaaa!</h2>
+                  <h2>hollaaaa!</h2>
                   <p>
-                    Hey! If you made it this far, congrats—you survived my
-                    portfolio. Now, don’t just lurk—leave a message at the
-                    end of the page. I promise I’ll probably read it… unless
-                    it’s bug reports. Thanks for your time, you absolute
-                    legend!
-                    <br />
                     <span className="catsoncake">
                       Cats love cake, but this one left without a bite. If you're still hungry, you know where to find me (Just text me please)
                       <br /><span className="mark-ruffalo">- Mark Ruffalo in disguise</span>

@@ -271,6 +271,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   z-index: 1000;
   overflow-y: scroll;
+  color: #B8B8B8;
 }
 
 .modal-content {
