@@ -23,8 +23,6 @@ function App() {
         const response = await fetch("https://ipinfo.io/json?token=4e51854f68623b");
         const data = await response.json();
 
-        console.log("LOCATION IS:", data);
-
         if (data.ip) {  // ✅ Check if we got a valid response
           setLocation(data);
 
@@ -59,21 +57,15 @@ function App() {
               },
             ]);
 
-            if (error) console.error("Error inserting data:", error.message);
-            else console.log("Location stored successfully!");
           } else {
-            console.log("IP already exists, skipping insert.");
           }
         }
       } catch (err) {
-        console.error("Error fetching location:", err);
       }
     };
 
     fetchLocation();
   }, []);
-
-  console.log('User From:', location);
 
   return (
     <div className="App">
