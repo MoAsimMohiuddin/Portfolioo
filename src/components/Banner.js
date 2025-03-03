@@ -13,9 +13,8 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "Architecting software, debugging reality",
-    "Debugging my code, and occasionally my life",
-    "Turning coffee into code (and sometimes chaos)",
+    "A Software Engineer",
+    "Trying to navigate my way through this world",
   ];
   const period = 800;
 
@@ -67,7 +66,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <div>
               <span className="tagline">Welcome to my Portfolio</span>
@@ -79,10 +78,7 @@ export const Banner = () => {
               </h1>
               <p>
                 {" "}
-                Hey, I’m Asim. A Software Engineer who occasionally questions his life choices. I write code, break things, then pretend I meant to do it. If there’s a new tech trend, I’ll probably adopt it—only to regret it later. Web dev keeps me on my toes, mainly because something is always on fire.
-                Beyond coding, I have an unhealthy obsession with Data Structures and Algorithms. Why? Because nothing screams fun like dynamic programming and time complexity ruining your day. I enjoy solving algorithmic puzzles, mostly so I can flex about it later. Optimizing code is my passion… until I realize the bottleneck is me.
-                When I’m not busy debugging my life choices, I’m watching Barça remind the world why football is art. Messi? Absolute GOAT—no debates, no discussions. Football is my escape, except when my team loses, in which case, it’s just another source of pain.
-                Welcome to my portfolio.
+                An engineer, a befuddled soul, constantly trying to make sense of the world, and myself. I often wonder what happiness truly means to me. I picture it in the form of overflowing bank accounts, the perfect career, an enviable physique. But then I pause and ask myself—if I had all of it, would I really feel at peace? Would my mind finally be still? The thought lingers, unsettling yet familiar, and I find myself circling back to the same question: what is happiness, really?{" "}
               </p>
 
               <button className="more-btn" onClick={handleShowModal}>
