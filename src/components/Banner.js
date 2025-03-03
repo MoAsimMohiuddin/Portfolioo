@@ -86,7 +86,7 @@ export const Banner = () => {
               </p>
 
               <button className="more-btn" onClick={handleShowModal}>
-                Catsoncake
+                About me
                 <ArrowRightCircle size={25} />
               </button>
             </div>
@@ -108,9 +108,8 @@ export const Banner = () => {
                   </span>
                   <h2>hollaaaa!</h2>
                   <p>
-                    <span className="catsoncake">
-                      Cats love cake, but this one left without a bite. If you're still hungry, you know where to find me (Just text me please)
-                      <br /><span className="mark-ruffalo">- Mark Ruffalo in disguise</span>
+                    <span className="modal-text">
+                    Hey! I hope you liked my work. If you have a moment, I’d truly appreciate it if you could leave a message at the end of the page. A few words of appreciation would mean the world to me. <br /> <br />
                     </span>
                   </p>
                   <img src={asimImg} className="modal-image" alt=""></img>

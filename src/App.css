@@ -611,22 +611,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 
-.catsoncake {
+.modal-text {
   font-weight: bold;
   font-family: "Comic Neue", cursive;
   font-style: italic;
   color: #c483fc;
   display: flex;
   flex-direction: column;
-}
-
-.mark-ruffalo {
-  font-weight: lighter;
-  font-size: smaller;
-  font-style: normal;
-  font-family: 'Courier New', Courier, monospace;
-  color: #B8B8B8;
-  text-align: right;
-  align-self: flex-end;
-  text-align: right;
 }
