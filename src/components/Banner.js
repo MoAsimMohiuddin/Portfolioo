@@ -14,7 +14,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [
     "A Software Engineer",
-    "Trying to navigate my way through this world",
+    "Seeking purpose in a world full of endless possibilities",
   ];
   const period = 800;
 
